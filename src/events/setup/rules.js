@@ -6,7 +6,7 @@ const server = require("../../config/server.json");
 module.exports = {
     name: "rulesLoaded"
 };
-
+// made by zaydocs.dev for timmy
 client.on('interactionCreate', async interaction => {
     if (!interaction.isButton()) return;
 
@@ -22,7 +22,7 @@ client.on('interactionCreate', async interaction => {
                     .setLabel('Discord Terms & Service')
                     .setStyle(ButtonStyle.Link)
                     .setURL('https://discord.com/terms'),
-
+// made by zaydocs.dev for timmy
                 new ButtonBuilder()
                     .setLabel('Discord Community Guildlines')
                     .setStyle(ButtonStyle.Link)
@@ -35,7 +35,7 @@ client.on('interactionCreate', async interaction => {
 
             **[#Rule 2]** For specific topic conversations make sure you're responding in the correct channels.
 
-            **[#Rule 3]** When you are asking for help, make sure to provide as much detail as possible with errors. If you are asking for "how to make discord bot", or "m-my bot is not working", or source code, we will not reply or help in this case.
+            **[#Rule 3]** When you are asking for help, make sure to provide as much details but if you don't understand than get good! 😊.
 
             **[#Rule 4]** Don't dms or ping any staff or member asking for help, this will leads to ban.
 
@@ -54,3 +54,4 @@ client.on('interactionCreate', async interaction => {
         })
     }
 })
+// made by zaydocs.dev for timmy

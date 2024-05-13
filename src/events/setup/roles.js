@@ -2,7 +2,7 @@ const { ButtonBuilder } = require("@discordjs/builders");
 const { EmbedBuilder, ActionRowBuilder, ButtonStyle } = require("discord.js");
 const client = require("../../index.js")
 const server = require("../../config/server.json")
-
+// made by zaydocs.dev for timmy
 module.exports = {
     name: "rolesLoaded"
 };
@@ -13,7 +13,7 @@ client.on('interactionCreate', async interaction => {
         user: interaction.user.id,
         force: true
     })
-
+// made by zaydocs.dev for timmy
     if (interaction.customId == 'role') {
         const row = new ActionRowBuilder()
             .addComponents(
@@ -93,3 +93,4 @@ client.on('interactionCreate', async interaction => {
         }
     }
 })
+// made by zaydocs.dev for timmy
